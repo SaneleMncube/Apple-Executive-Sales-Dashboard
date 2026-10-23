@@ -1,6 +1,6 @@
 # Apple-Executive-Sales-Dashboard
 
-Apple Sales Executive Dashboard — Power BI
+Apple Sales Executive Dashboard - Power BI
 An end-to-end Business Intelligence project creating an Executive Sales Dashboard in Power BI Desktop
 
 # Overview
