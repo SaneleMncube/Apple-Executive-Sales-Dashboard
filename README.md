@@ -55,22 +55,22 @@ Chronological Sorting Helper: Created custom Month (MMM YYYY) and MonthSort (YYY
 # DAX Measures
 All calculations are centralized within a dedicated Measures table using Data Analysis Expressions (DAX):
 
-// 1. Total Sales / Revenue
+ 1. Total Sales / Revenue
 Total Sales =
 // Sums the net revenue column
 SUM('SalesData'[Revenue])
 
-// 2. Total Units Sold
+2. Total Units Sold
 Total Quantity =
 // Sums total product units
 SUM('SalesData'[Quantity])
 
-// 3. Total Order Volume
+3. Total Order Volume
 Total Orders =
 // Counts the total transaction records
 COUNTROWS('SalesData')
 
-// 4. Average Order Value
+ 4. Average Order Value
 Average Sales =
 // Calculates average revenue per order
 AVERAGE('SalesData'[Revenue])
